@@ -1,0 +1,38 @@
+@import url(style_main.css);
+
+.menu{
+	box-shadow: 0px 10px 10px #888;
+	margin:0 0 32px;
+}
+
+h1{
+	font-weight:normal;
+	font-size: 36px;
+	text-shadow: 1px 1px 1px #999;
+	line-height: 1.2em;
+}
+
+.content p{
+	margin:0 0 10px;
+}
+
+.content{
+	max-width:700px;
+	margin:0 0 30px;
+}
+
+.content .date{
+	margin:18px 0;
+	color:#808080;
+}
+
+.content img{
+	float:left;
+	margin:5px 10px 5px 0;
+}
+
+@media screen and (max-width:574px) {
+	h1{
+	font-size:28px;
+	}
+}
